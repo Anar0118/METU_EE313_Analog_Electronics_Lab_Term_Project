@@ -14,6 +14,8 @@ A voice signal captured by a microphone is amplified, automatically gain-control
 
 On the receiver side, the optical signal is converted back to an electrical signal, demultiplexed using filters, amplified to drive a speaker, and analyzed to display signal strength.
 
+![Final Setup](images/setup.jpg)
+
 ---
 
 ## System Architecture
