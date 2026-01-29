@@ -51,8 +51,7 @@ The AGC prevents clipping and ensures reliable transmission.
 
 The design uses a BJT acting as a voltage-controlled resistor to dynamically adjust the gain.
 
-![AGC Schematic](images/agc_schematic.png)  
-![AGC Output](images/agc_output.png)
+![AGC Schematic](images/agc_schematic.png)
 
 ---
 
@@ -96,8 +95,7 @@ To separate them, third-order Butterworth filters are used.
 | Low-Pass Filter | 3.4 kHz |
 | High-Pass Filter | 10 kHz |
 
-![Low Pass Filter](images/lpf.png)  
-![High Pass Filter](images/hpf.png)
+![Low Pass Filter](images/lpf_hpf.png)  
 
 ---
 
@@ -137,8 +135,6 @@ A single RGB LED indicates signal strength with discrete color levels.
 - Accurate signal strength visualization  
 - Strong agreement between simulation and experimental results  
 
-![Final Setup](images/final_setup.png)
-
 ---
 
 ## Technologies Used
@@ -159,16 +155,6 @@ A single RGB LED indicates signal strength with discrete color levels.
 - Achieving sharp frequency separation with real components  
 - Laser biasing and optical alignment  
 - Power amplifier efficiency and thermal considerations  
-
----
-
-## Future Improvements
-
-- PCB implementation  
-- Improved optical enclosure and alignment  
-- Extended transmission distance  
-- Digital signal strength indication  
-- Noise-resistant modulation techniques  
 
 ---
 
